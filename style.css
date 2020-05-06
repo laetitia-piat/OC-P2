@@ -1,0 +1,170 @@
+/*GENERAL*//*GENERAL*//*GENERAL*/
+body {
+	max-width: 1000px;
+  	font-style: normal;
+  	font-size: 12px;
+  	margin: auto; 
+}
+.col-sm-3, .col-sm-6, .col-sm-9, .row {
+	padding: 0;
+}
+/*HEADER*//*HEADER*//*HEADER*//*HEADER*/
+.photo {
+	background-color: #F8BBD0;
+	height: 100%;
+}
+img {
+	margin-top: 30px;
+}
+h1 {
+	font-size: 45px;
+	margin-bottom: -10px;
+}
+h1 span {
+	color: #f8bbd0;
+}
+h2 {
+	font-size: 19px;
+	margin-bottom: 55px;
+}
+h2 span {
+	text-decoration: underline;
+	text-decoration-color: #F8BBD0;
+}
+.row {
+	width: 100%;
+	margin: 0;
+}
+.aside {
+	padding: 0;
+}
+/*PARTIE GAUCHE*//*PARTIE GAUCHE*//*PARTIE GAUCHE*/
+.gauche {
+	background-color: #F8BBD0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+h3 {
+	font-size: 18px;
+	text-align: center;
+	color: #F8BBD0;
+	background-color: #263238;
+}
+.contact p {
+	padding: 0 30px 0 30px;
+	word-wrap: break-word;
+}
+.apropos {
+	flex: 2;
+}
+.apropos p {
+	padding: 0 30px 0 30px;
+}
+.loisirs p {
+	padding: 0 20px 0 20px;
+	text-align: center;
+	font-size: 25px;
+}
+.loisirs i {
+	margin: 0 15px 0 15px;
+}
+.recommandation {
+	padding-left: 25px;
+}
+.recom1{
+	width: 50%;
+}
+.recom2{
+	width: 50%;
+}
+/*PARTIE DROITE*//*PARTIE DROITE*//*PARTIE DROITE*/
+.droite {
+	margin-left: 1rem;
+}
+.nom {
+	margin-left: 1rem;
+}
+
+.col i {
+	color: #F8BBD0;
+	margin-right: 10px;
+}
+.titre hr {
+	margin: -2px 0 25px 0;
+}
+.circle {
+	padding: 0 10px 0 10px;
+	width: 5%;
+}
+.date {
+	width: 22%;
+}
+.school, .entreprisenom  {
+	width: 50%;
+}
+h4 {
+	font-size: 20px;
+}
+h4 i {
+	text-decoration-color: #F8BBD0;
+}
+h5 {
+	font-size: 14px;
+}
+.fa-circle{
+	font-size: 7px;
+}
+@media (max-width: 768px) {
+
+	#container .row .col-sm-3 {
+		order: 2;
+	} 
+}/*
+	body {
+		margin: 0;
+		width: 100%;
+	}
+	.droite {
+		margin: auto;
+	}
+	/*
+	h1, h2 {
+		text-align: center;
+	}
+	img {
+		margin: 0 ;
+	}
+	.nom h1{
+		font-size: 35px;
+		margin-bottom: -10px;
+	}
+	.nom h2{
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	h4 {
+		margin: 20px 0 0 0;
+	}
+	/*ICONE TITRE*/
+	/*.col-md-9 i {
+		margin: 0 30px 0 10px;
+	}
+	.contact p {
+		text-align: center;
+		margin: -5px 0 0 0;
+	}
+	.circle {
+		padding: 0 30px 0 10px;
+		width: 5%;
+	}
+	.date {
+		width: 22%;
+	}
+	.school {
+		width: 50%;
+	}
+	.recommandation {
+		padding: 0 10px ;
+	}
+}*/
