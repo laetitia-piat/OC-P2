@@ -115,6 +115,6 @@ h5 {
 		padding : 0;
 	}
 	.recom1 , .recom2 {
-		width: 50%;
+		font-size: 0.7rem;
 	}
 }
