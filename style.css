@@ -115,7 +115,7 @@ h5 {
 .fa-circle{
 	font-size: 7px;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 
 	#container .row .col-sm-3 {
 		order: 2;
