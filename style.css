@@ -90,7 +90,7 @@ h3 {
 .date {
 	width: 30%;
 }
-.school, .entreprisenom  {
+.school, .entreprisenom {
 	width: 60%;
 }
 h4 {
@@ -112,9 +112,9 @@ h5 {
 		text-align: center;
 	}
 	.recommandation {
-		padding-left: 0.3rem;
-}
+		padding : 0;
+	}
 	.recom1 , .recom2 {
 		width: 50%;
-}
+	}
 }
