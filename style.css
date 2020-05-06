@@ -79,7 +79,7 @@ h3 {
 }
 /*PARTIE DROITE*//*PARTIE DROITE*//*PARTIE DROITE*/
 .droite , .nom {
-	margin-left: 1rem;
+	margin: 0 1rem;
 }
 .titre hr {
 	margin: -2px 0 25px 0;
