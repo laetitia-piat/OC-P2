@@ -111,4 +111,8 @@ h5 {
 	h1, h2, .contact p {
 		text-align: center;
 	}
+	.recom1 , .recom2 {
+		width: 50%;
+		justify-content: space-around;
+}
 }
