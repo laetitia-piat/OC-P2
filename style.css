@@ -62,16 +62,16 @@ h3 {
 	flex: 2;
 }
 .loisirs p {
-	padding: 0 20px 0 20px;
+	padding: 0 1.3rem;
 	text-align: center;
-	font-size: 25px;
+	font-size: 1.6rem;
 }
 .loisirs i {
 	color: black;
-	margin: 0 15px 0 15px;
+	margin: 0 0.9rem;
 }
 .recommandation {
-	padding-left: 25px;
+	padding-left: 1.5rem;
 }
 .recom1 , .recom2 {
 	width: 50%;
@@ -111,8 +111,10 @@ h5 {
 	h1, h2, .contact p {
 		text-align: center;
 	}
+	.recommandation {
+		padding-left: 0.5rem;
+}
 	.recom1 , .recom2 {
 		width: 50%;
-		justify-content: space-around;
 }
 }
