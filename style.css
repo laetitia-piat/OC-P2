@@ -1,4 +1,7 @@
-/*GENERAL*//*GENERAL*//*GENERAL*/
+/*--------------GENERAL---------------*/
+html {
+		font-size: 100%;
+	}
 body {
 	max-width: 62.5rem;
   	font-style: normal;
@@ -12,7 +15,7 @@ body i {
 .col-md-3, .col-md-6, .col-md-9, .row {
 	padding: 0;
 }
-/*HEADER*//*HEADER*//*HEADER*//*HEADER*/
+/*---------------HEADER-----------------*/
 .photo {
 	background-color: #F8BBD0;
 	height: 100%;
@@ -45,7 +48,7 @@ h2 span {
 .aside {
 	padding: 0;
 }
-/*PARTIE GAUCHE*//*PARTIE GAUCHE*//*PARTIE GAUCHE*/
+/*-------------PARTIE GAUCHE-------------*/
 .gauche {
 	background-color: #F8BBD0;
 	height: 100%;
@@ -83,7 +86,7 @@ h3 {
 .recom1 , .recom2 {
 	width: 50%;
 }
-/*PARTIE DROITE*//*PARTIE DROITE*//*PARTIE DROITE*/
+/*---------------PARTIE DROITE--------------*/
 .droite , .nom {
 	margin: 0 1rem;
 }
@@ -111,16 +114,39 @@ h5 {
 	font-size: 0.4rem;
 	color: #F8BBD0;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
+=======
+<<<<<<< Updated upstream
+@media (max-width: 768px) {
+>>>>>>> taillepolice
 
+=======
+/*----------- TABLETTES ET SMARTPHONES ------------*/
+@media (max-width: 767px) {
+	html {
+		font-size: 90%;
+	}
+>>>>>>> Stashed changes
 	#container .row .col-md-3 {
 		order: 2;
-	} 
+	}
 	h1, h2, .contact p {
 		text-align: center;
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+}
+=======
+>>>>>>> taillepolice
 	.recommandation {
 		padding : 0 0.2rem 0.6rem 0;
 		font-size: 0.7rem;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> Stashed changes
+>>>>>>> taillepolice
