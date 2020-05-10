@@ -106,28 +106,20 @@ h5 {
 	font-size: 0.4rem;
 	color: #F8BBD0;
 }
-<<<<<<< Updated upstream
-@media (max-width: 768px) {
-
-=======
 /*----------- TABLETTES ET SMARTPHONES ------------*/
 @media (max-width: 767px) {
 	html {
 		font-size: 90%;
 	}
->>>>>>> Stashed changes
 	#container .row .col-md-3 {
 		order: 2;
 	}
 	h1, h2, .contact p {
 		text-align: center;
 	}
-<<<<<<< Updated upstream
-}
-=======
 	.recommandation {
 		padding : 0 0.2rem 0.6rem 0;
 		font-size: 0.7rem;
 	}
 }
->>>>>>> Stashed changes
+
