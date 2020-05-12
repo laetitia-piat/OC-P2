@@ -128,4 +128,10 @@ h5 {
 	.recommandation {
 		padding : 0 0.2rem 0.6rem 0;
 	}
-
+}
+/*----------------ECRAN HD------------------*/
+@media (min-width: 1920px) {
+	html{
+		font-size: 130%;
+	}
+}
