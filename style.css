@@ -4,6 +4,7 @@ html {
 	}
 body {
 	max-width: 62.5rem;
+	font-family: arial;
   	font-style: normal;
   	font-size: 0.75rem;
   	margin: auto; 
@@ -12,13 +13,19 @@ body i {
 	color: #F8BBD0;
 	margin-right: 0.63rem;
 }
-.col-md-3, .col-md-6, .col-md-9, .row {
-	padding: 0;
-}
+
 /*---------------HEADER-----------------*/
+.entete {
+	display: flex;
+	flex-direction: row;
+}
 .photo {
 	background-color: #F8BBD0;
-	height: 100%;
+	width: 35%;
+
+}
+.nom {
+	width: 65%;
 }
 .photo p {
 	text-align: center;
@@ -42,16 +49,14 @@ h2 span {
 	text-decoration: underline;
 	text-decoration-color: #f8bbd0;
 }
-.row {
-	margin: 0;
-}
-.aside {
-	padding: 0;
-}
 /*-------------PARTIE GAUCHE-------------*/
+#corps {
+	display: flex;
+	flex-direction: row;
+}
 .gauche {
 	background-color: #F8BBD0;
-	height: 100%;
+	width: 35%;
 	display: flex;
 	flex-direction: column;
 }
@@ -87,6 +92,9 @@ h3 {
 	width: 50%;
 }
 /*---------------PARTIE DROITE--------------*/
+.droite {
+	width: 65%;
+}
 .droite , .nom {
 	margin: 0 1rem;
 }
@@ -94,15 +102,18 @@ h3 {
 	margin: -0.2rem 0 1.6rem 0;
 	background-color: #F8BBD0;
 }
+.responsive {
+	display: flex;
+}
 .circle {
 	padding: 0 0.6rem 0 0.6rem;
-	width: 8%;
+	width: 8%;	
 }
 .date {
-	width: 30%;
+	width: 20%;
 }
-.school, .entreprisenom {
-	width: 60%;
+.ecole, .entreprisenom {
+	width: 70%;
 }
 h4 {
 	font-size: 1.2rem;
@@ -119,8 +130,24 @@ h5 {
 	html {
 		font-size: 90%;
 	}
-	#container .row .col-md-3 {
+	.entete {
+		flex-direction: column;
+	}
+	.photo {
+		width: 100%;
+	}
+	.nom {
+		width: 100%;
+	}
+	#corps {
+		flex-direction: column;
+	}
+	.gauche {
 		order: 2;
+		width: 100%;
+	}
+	.droite {
+		width: 100%;
 	}
 	h1, h2, .contact p {
 		text-align: center;
