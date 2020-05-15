@@ -14,6 +14,7 @@ body i {
 	margin-right: 0.63rem;
 }
 
+
 /*---------------HEADER-----------------*/
 .entete {
 	display: flex;
@@ -23,12 +24,14 @@ body i {
 	background-color: #F8BBD0;
 	width: 35%;
 
+
 }
 .nom {
 	width: 65%;
 }
 .photo p {
 	text-align: center;
+	
 }
 img {
 	margin-top: 0.8rem;
@@ -49,6 +52,7 @@ h2 span {
 	text-decoration: underline;
 	text-decoration-color: #f8bbd0;
 }
+
 /*-------------PARTIE GAUCHE-------------*/
 #corps {
 	display: flex;
@@ -98,28 +102,36 @@ h3 {
 .droite , .nom {
 	margin: 0 1rem;
 }
-.titre hr {
-	margin: -0.2rem 0 1.6rem 0;
-	background-color: #F8BBD0;
-}
-.responsive {
+
+.flex {
 	display: flex;
 }
+.flex p {
+	margin: 0;
+}
+.droite hr {
+	margin: -0.7rem 0 1.6rem 0;
+	background-color: #F8BBD0;
+}
+
 .circle {
-	padding: 0 0.6rem 0 0.6rem;
-	width: 8%;	
+	width: 8%;
+	height: auto;	
 }
 .date {
 	width: 20%;
+	height: auto;
 }
 .ecole, .entreprisenom {
 	width: 70%;
+	height: auto;
 }
 h4 {
 	font-size: 1.2rem;
 }
 h5 {
 	font-size: 0.9rem;
+	margin: 0;
 }
 .fa-circle{
 	font-size: 0.4rem;
