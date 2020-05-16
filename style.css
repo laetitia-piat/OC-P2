@@ -7,9 +7,9 @@ body {
 	font-family: arial;
   	font-style: normal;
   	font-size: 0.75rem;
-  	line-height: 1.5;
+  	line-height: 1.6;
   	width: 100%;
-  	max-width: 82.5em;
+  	max-width: 62.5rem;
   	margin: auto;
 }
 i {
@@ -41,7 +41,6 @@ aside {
 .nom section {
 	display: flex;
 	flex-direction: column;
-	
 	padding: 0.5rem 1rem 0 1rem;
 }
 .photo p {
@@ -49,8 +48,7 @@ aside {
 }
 h1 {
 	font-size: 3rem;
-	margin-bottom: -0.6em;
-	
+	margin-bottom: -1.5rem;
 }
 h1 span {
 	color: #f8bbd0;
@@ -63,7 +61,7 @@ h2 span {
 	text-decoration-color: #f8bbd0;
 }
 hr{
-    height: 1px;
+    height: 0.06rem;
     background-color: #f8bbd0;
     border: none;
 }
@@ -84,6 +82,9 @@ h3 {
 	text-align: center;
 	color: #F8BBD0;
 	background-color: #263238;
+}
+.contact, .apropos, .loisirs {
+	margin-top: 1rem;
 }
 .contact p, .apropos p{
 	padding: 0 1.9rem 0 1.9rem;
@@ -115,20 +116,20 @@ h3 {
 	width: 75%;
 }
 .titre {
-	margin: 1em 1em 0 1em;
+	margin:0 0.5rem ;
 }
 .flex {
 	display: flex;
-	padding: 1.5rem 0 0.5rem 0;
+	padding: 1rem 0;
 }
 .flex p {
 	margin: 0;
 }
 .formation , .experience, .recommandation {
-	padding: 0 1em 0 2em;
+	padding: 0.5rem 1rem 1rem 2rem;
 }
 .circle {
-	width: 8%;
+	width: 10%;
 }
 .date {
 	width: 30%;
@@ -149,7 +150,7 @@ h5 {
 	color: #F8BBD0;
 }
 .recommandation {
-	padding-bottom: 2em;
+	padding-bottom: 1rem;
 }
 /*----------- TABLETTES ET SMARTPHONES ------------*/
 @media (max-width: 767px) {
@@ -175,19 +176,27 @@ h5 {
 		order: 2;
 		width: 100%;
 	}
+	.contact, .apropos, .loisirs {
+		margin-top: 0;
+	}
 	.droite {
 		width: 100%;
 	}
 	h1, h2, .contact p {
 		text-align: center;
 	}
+	.titre {
+	margin-top: 1rem;
+}
 	.recommandation {
-		padding : 0 0.2em 1em 1em;
+		padding : 0 0.2rem 1rem 1rem;
 	}
+	.recom1 , .recom2 {
+		padding: 0 0.2rem;
 }
 /*----------------ECRAN HD------------------*/
 @media (min-width: 1920px) {
 	html{
-		font-size: 130%;
+		font-size: 140%;
 	}
 }
