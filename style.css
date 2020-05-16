@@ -35,9 +35,8 @@ aside {
 	background-color: #F8BBD0;
 	width: 25%;
 }
-.photo h1 {
+.photo p {
 	text-align: center;
-	padding: 1rem 0;	
 }
 .nom {
 	width: 75%;
@@ -117,7 +116,7 @@ h3 {
 	width: 75%;
 }
 .titre {
-	margin:0 0.5rem ;
+	margin-left: 1.3rem ;
 }
 .flex {
 	display: flex;
@@ -188,12 +187,13 @@ h5 {
 	}
 	.titre {
 	margin-top: 1rem;
-}
+	}
 	.recommandation {
 		padding : 0 0.2rem 1rem 1rem;
 	}
 	.recom1 , .recom2 {
 		padding: 0 0.2rem;
+	}
 }
 /*----------------ECRAN HD------------------*/
 @media (min-width: 1920px) {
