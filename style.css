@@ -35,8 +35,9 @@ aside {
 	background-color: #F8BBD0;
 	width: 25%;
 }
-.photo p {
+.photo h1 {
 	text-align: center;
+	padding: 1rem 0; 
 }
 .nom {
 	width: 75%;
