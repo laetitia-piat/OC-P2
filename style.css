@@ -35,6 +35,10 @@ aside {
 	background-color: #F8BBD0;
 	width: 25%;
 }
+.photo h1 {
+	text-align: center;
+	padding: 1rem 0;	
+}
 .nom {
 	width: 75%;
 }
@@ -42,9 +46,6 @@ aside {
 	display: flex;
 	flex-direction: column;
 	padding: 0.5rem 1rem 0 1rem;
-}
-.photo p {
-	text-align: center;	
 }
 h1 {
 	font-size: 3rem;
