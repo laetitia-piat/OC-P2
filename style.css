@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
 hr {
 	background-color: #F8BBD0;
 }
-aside {
+aside, figure {
 	margin: 0;
 }
 /*---------------HEADER-----------------*/
@@ -31,11 +31,11 @@ aside {
 	display: flex;
 	flex-direction: row;
 }
-.photo {
+#photo {
 	background-color: #F8BBD0;
 	width: 25%;
 }
-.photo h1 {
+#photo p {
 	text-align: center;
 	padding: 1rem 0; 
 }
@@ -61,7 +61,7 @@ h2 span {
 	text-decoration: underline;
 	text-decoration-color: #f8bbd0;
 }
-hr{
+hr {
     height: 0.06rem;
     background-color: #f8bbd0;
     border: none;
