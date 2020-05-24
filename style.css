@@ -165,7 +165,7 @@ h5 {
 	.entete {
 		flex-direction: column;
 	}
-	.photo {
+	#photo {
 		width: 100%;
 	}
 	.nom {
